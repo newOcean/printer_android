@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:text="表头表尾打印内容"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:paddingStart="10dp"
+        android:background="@android:color/darker_gray"/>
+    <RelativeLayout
+        android:id = "@+id/rl_print_set_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:background="@android:color/white"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text = "保存后自动打印"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"/>
+        <ImageView
+            android:id = "@+id/iv_print_set_save"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/img_right_arrow"
+            />
+        <TextView
+            android:id = "@+id/tv_print_set_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@id/iv_print_set_save"
+            android:textSize="16sp"
+            android:text="否"
+            android:layout_marginEnd="15dp"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@android:color/darker_gray"/>
+    <RelativeLayout
+        android:id = "@+id/rl_print_set_custom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:background="@android:color/white"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text = "打印客户详情"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"/>
+        <ImageView
+            android:id = "@+id/iv_print_set_custom"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/img_right_arrow"
+            />
+        <TextView
+            android:id = "@+id/tv_print_set_custom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@id/iv_print_set_custom"
+            android:textSize="16sp"
+            android:text="否"
+            android:layout_marginEnd="15dp"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@android:color/darker_gray"/>
+    <RelativeLayout
+        android:id = "@+id/rl_printer_lenth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:background="@android:color/white"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text = "打印机宽度"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"/>
+        <ImageView
+            android:id = "@+id/iv_printer_lenth_end"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/img_right_arrow"
+            />
+        <TextView
+            android:id = "@+id/tv_printer_lenth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@id/iv_printer_lenth_end"
+            android:textSize="16sp"
+            android:text="58mm"
+            android:layout_marginEnd="15dp"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@android:color/darker_gray"/>
+    <RelativeLayout
+        android:id = "@+id/rl_printer_font"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:background="@android:color/white"
+        >
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text = "字体大小"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"/>
+        <ImageView
+            android:id = "@+id/iv_printer_font"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/img_right_arrow"
+            />
+        <TextView
+            android:id = "@+id/tv_printer_font"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@id/iv_printer_font"
+            android:textSize="16sp"
+            android:text="自动"
+            android:layout_marginEnd="15dp"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@android:color/darker_gray"/>
+
+    <RelativeLayout
+        android:id = "@+id/rl_print_set_page_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:background="@android:color/white"
+        >
+        <TextView
+            android:id = "@+id/tv_page_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text = "页眉"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"/>
+        <ImageView
+            android:id = "@+id/iv_print_set_page_start"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/img_right_arrow"
+            />
+        <TextView
+            android:id = "@+id/tv_print_set_page_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@id/iv_print_set_page_start"
+            android:textSize="16sp"
+            android:text="欢迎光临"
+            android:layout_marginEnd="15dp"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id = "@+id/rl_print_set_page_end"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:background="@android:color/white"
+        >
+        <TextView
+            android:id = "@+id/tv_page_end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text = "页脚"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"/>
+        <ImageView
+            android:id = "@+id/iv_print_set_page_end"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/img_right_arrow"
+            />
+        <TextView
+            android:id = "@+id/tv_print_set_page_end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@id/iv_print_set_page_end"
+            android:textSize="16sp"
+            android:text="谢谢惠顾"
+            android:layout_marginEnd="15dp"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@android:color/darker_gray"/>
+    <RelativeLayout
+        android:id = "@+id/rl_print_set_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:background="@android:color/white"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text = "二维码"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"/>
+        <ImageView
+            android:id = "@+id/iv_print_set_two"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/img_right_arrow"
+            />
+        <TextView
+            android:id = "@+id/tv_print_set_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@id/iv_print_set_two"
+            android:textSize="16sp"
+            android:text=""
+            android:layout_marginEnd="15dp"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:text="商品信息打印项目"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:paddingStart="10dp"
+        android:background="@android:color/darker_gray"/>
+</LinearLayout>
