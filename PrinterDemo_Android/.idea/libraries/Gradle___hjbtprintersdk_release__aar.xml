@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: :hjbtprintersdk-release:@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/hjbtprintersdk-release.aar/f0dfa6964b395bec54ce1f6168a5b47d/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/hjbtprintersdk-release.aar/f0dfa6964b395bec54ce1f6168a5b47d/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
